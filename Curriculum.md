@@ -10,7 +10,8 @@
 #### 메모리 모니터링 
 #### 디스크 모니터링 
 ### 시스템 점검 방법
-## Java System 구조
+## Java System
+### Java System 구조
 ### Java 점검 방법
 #### thread dump 점검
 #### heap dump 점검
