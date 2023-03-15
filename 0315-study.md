@@ -88,3 +88,6 @@ was 의 경우는 jre 기본 -> was classloader -> web application classloader �
     1.  Deadlock 이슈
 
         - to be continue
+
+#### 강의 스케치 
+![0305 화이트보드](IMG_0245.PNG) 
