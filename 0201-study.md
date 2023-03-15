@@ -73,4 +73,9 @@
       - Thread dump분석시 thread mode 로 보면 tid로 확인 가능하다.
 
 #### resource 점검
-#### Known Case
+ - 점검의 자동화를 위해서는 shell을 작성해서 관제 툴 같은 곳에 등록 할 수 있다
+   
+   예)
+```
+    top -l 1 |grep 'Chrome'| awk '{ if( $(NF - 10 ) > 100000) print "true"; else print "false" }'
+```
